@@ -1,0 +1,6 @@
+body {background-color: grey; }
+.tituloprincipal {color: red; font-size: 45px; background-color: white; text-align:center; text-decoration: underline;
+}
+.subtitulo1 {color: white; font-size: 30px; text-align: center;}
+.titulosecundario {color: orange; font-size: 45px; text-align: center; text-decoration: underline;}
+.imagen1 {height: 250px; width: 300px;}
