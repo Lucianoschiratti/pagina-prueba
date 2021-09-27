@@ -1,6 +1,42 @@
-body {background-color: grey; }
-.tituloprincipal {color: red; font-size: 45px; background-color: white; text-align:center; text-decoration: underline;
-}
-.subtitulo1 {color: white; font-size: 30px; text-align: center;}
-.titulosecundario {color: orange; font-size: 45px; text-align: center; text-decoration: underline;}
-.imagen1 {height: 250px; width: 300px;}
+body {background: powderblue;
+background-image: image url(../imagenes/empanadasvector.jpg);
+background-repeat: repeat-x;}
+
+.whatsapp { position: fixed; background-attachment: scroll; float: right;}
+.tituloheader {color:white;font-size: 90px;font-family: courier; text-align: center;font-style: oblique;}
+
+.tituloprincipal {color: #FF2626; font-family: verdana; font-size: 45px; text-align:center; text-decoration: underline;}
+
+.subtitulo1 {color: #FF2626; font-size: 50px;font-family: verdana; text-align: center;}
+
+.ingredientes {color: #FF2626; font-size: 30px; font-family: verdana; text-align: center;}
+
+.parrafo1 {font-size: 25px; font-family: calibri;text-align: justify;}
+
+.preparacion {color: #FF2626;font-family: verdana; font-size: 30px; text-align: center;}
+
+.imagen1 {height: 25%;}
+
+.segundalista {}
+
+header {background-color: powderblue;}
+
+main {float: left;}
+
+nav  {background-color: powderblue;text-align: center;font-family: sans-serif;font-size: 25px}
+
+section {background-color: #FFF93A; float: left;}
+
+aside {background-color: yellow; float: left; width: 50%;
+overflow: scroll;}
+
+footer {background-color: white; float: left; width: 50%;}
+
+.iconow {position: fixed;
+          top: 75%;
+        left: :90% ;
+      width: 5%}
+.tamañowp {width: 100%}
+.tamañofb {width: 100px}
+.tamañoig {width: 100px}
+.tamañotw {width: 100px}
