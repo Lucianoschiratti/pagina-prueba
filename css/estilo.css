@@ -1,13 +1,15 @@
 body {background: powderblue;
-background-image: image url(../imagenes/empanadasvector.jpg);
-background-repeat: repeat-x;}
+background-image: url(./imagenes/empanadasvector.jpg);
+background-repeat: no-repeat;}
 
 .whatsapp { position: fixed; background-attachment: scroll; float: right;}
 .tituloheader {color:white;font-size: 90px;font-family: courier; text-align: center;font-style: oblique;}
 
 .tituloprincipal {color: #FF2626; font-family: verdana; font-size: 45px; text-align:center; text-decoration: underline;}
+.tituloprincipal:hover {font-size: 60px; color: white;}
 
 .subtitulo1 {color: #FF2626; font-size: 50px;font-family: verdana; text-align: center;}
+.subtitulo1:hover {font-size: 60px; color: white;}
 
 .ingredientes {color: #FF2626; font-size: 30px; font-family: verdana; text-align: center;}
 
@@ -15,28 +17,45 @@ background-repeat: repeat-x;}
 
 .preparacion {color: #FF2626;font-family: verdana; font-size: 30px; text-align: center;}
 
-.imagen1 {height: 25%;}
+.imagen1 {height: 25%; float: left;}
+.imagen1:hover {width: 40%}
 
 .segundalista {}
 
 header {background-color: powderblue;}
 
+
+a:visited {color: red;}
+
+a:hover {color: yellow; font-size: 40px;}
+
 main {float: left;}
 
 nav  {background-color: powderblue;text-align: center;font-family: sans-serif;font-size: 25px}
+nav::before {content: "Otras recetas"; font-size: 30px; font-family: verdana; color: white; text-align: justify;}
 
 section {background-color: #FFF93A; float: left;}
 
 aside {background-color: yellow; float: left; width: 50%;
 overflow: scroll;}
 
-footer {background-color: white; float: left; width: 50%;}
+footer {background-color: powderblue; float: left; width: 100%;}
+
 
 .iconow {position: fixed;
           top: 75%;
-        left: :90% ;
+        right: 2% ;
       width: 5%}
+
+.iconow::after {content: "whatsapp"; color: green; font-size: 20px; font font-family: verdana}
+
 .tamañowp {width: 100%}
+
 .tamañofb {width: 100px}
+.tamañofb:hover {width: 10%}
+
 .tamañoig {width: 100px}
+.tamañoig:hover {width: 10%}
+
 .tamañotw {width: 100px}
+.tamañotw:hover {width: 10%}
